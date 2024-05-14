@@ -6,21 +6,24 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/anuradhasuresh/Portfolio"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
+    "url": "https://github.com/anuradhasuresh/Portfolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "https://github.com/anuradhasuresh/Portfolio/blob/main/README.md",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
+    "gh-pages": "^6.1.1",
     "prettier": "^2.8.1"
   },
   "dependencies": {
