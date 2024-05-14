@@ -1,19 +1,19 @@
-@import "./sass/vendors/bootstrap.scss";
+@import "Portfolio/src/sass/vendors/bootstrap.scss";
 
-@import "./sass/abstracts/mixins";
-@import "./sass/abstracts/variables";
-@import "./sass/abstracts/helpers";
+@import "Portfolio/src/sass/abstracts/mixins";
+@import "Portfolio/src/sass/abstracts/variables";
+@import "Portfolio/src/sass/abstracts/helpers";
 
-@import "./sass/base/base";
-@import "./sass/base/typography";
+@import "Portfolio/src/sass/base/base";
+@import "Portfolio/src/sass/base/typography";
 
-@import "./sass/components/buttons";
+@import "Portfolio/src/sass/components/buttons";
 
-@import "./sass/layout/footer";
-@import "./sass/layout/sections";
+@import "Portfolio/src/sass/layout/footer";
+@import "Portfolio/src/sass/layout/sections";
 
-@import "./sass/sections/about";
-@import "./sass/sections/contact";
-@import "./sass/sections/hero";
-@import "./sass/sections/experience";
-@import "./sass/sections/projects";
+@import "Portfolio/src/sass/sections/about";
+@import "Portfolio/src/sass/sections/contact";
+@import "Portfolio/src/sass/sections/hero";
+@import "Portfolio/src/sass/sections/experience";
+@import "Portfolio/src/sass/sections/projects";
