@@ -1,4 +1,4 @@
-var VanillaTilt = (function () {
+export default VanillaTilt = (function () {
     'use strict';
     
     /**
