@@ -1,4 +1,4 @@
-import VanillaTilt from "./vanilla-tilt.min.js";
+import VanillaTilt from "./vanilla-tilt.js";
 
 export default function initTiltAnimation() {
   const elements = document.querySelectorAll(".js-tilt");
