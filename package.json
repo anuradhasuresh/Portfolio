@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.1",
-  "homepage": "https://anuradhasuresh.github.io/Portfolio",
+  "homepage": "https://anuradhasuresh.github.io/Portfolio/src/index.html",
   "private": "true",
   "source": "src/index.html",
   "scripts": {
