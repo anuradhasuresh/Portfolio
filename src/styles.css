@@ -11185,7 +11185,7 @@ html {
   bottom: 0;
   right: 0;
   z-index: -1;
-  background: url("https://anuradhasuresh.github.io/Portfolio/src/assets/backgroundimage.jpg");
+  background: url("./assets/backgroundimage.jpg");
   background-size: cover;
 }
 @media (max-width: 37.5em) {

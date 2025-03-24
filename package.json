@@ -1,14 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.1",
-  "homepage": "https://anuradhasuresh.github.io/Portfolio/src/index.html",
+  "homepage": "https://anuradhasuresh.github.io/Portfolio",
   "private": "true",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs"
+    "deploy": "mv dist/ docs/ && gh-pages -d docs"
   },
   "repository": {
     "type": "git",
