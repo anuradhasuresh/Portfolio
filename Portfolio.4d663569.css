@@ -12460,7 +12460,6 @@ html {
   z-index: -1;
   background: url("backgroundimage.09aa7daf.jpg") 0 0 / cover;
   border-bottom: 0;
-  align-items: center;
   height: 100vh;
   min-height: 100vh;
   margin-bottom: 0;
@@ -12477,7 +12476,8 @@ html {
 }
 
 #hero .hero-title {
-  text-align: left;
+  text-align: right;
+  margin-top: 2rem;
   margin-bottom: 3.2rem;
   font-size: 5.6rem;
   font-weight: 700;
@@ -12510,6 +12510,7 @@ html {
 }
 
 #hero .hero-cta {
+  float: right;
   z-index: 1;
   display: flex;
   position: relative;
@@ -12598,8 +12599,12 @@ html {
 }
 
 #experience .project-wrapper__image {
-  width: 60%;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
   margin: 0 auto;
+  display: flex;
 }
 
 @media (width <= 75em) {
@@ -12690,8 +12695,12 @@ html {
 }
 
 #projects .project-wrapper__image {
+  justify-content: center;
+  align-items: center;
   width: 90%;
+  height: 100%;
   margin: 0 auto;
+  display: flex;
 }
 
 @media (width <= 75em) {
